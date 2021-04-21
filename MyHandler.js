@@ -1,18 +1,16 @@
 function start(res) {
-    let sBody = 'Hello, world! <br> I am in the cloud class.';
+    let body = 'Hello, world! <br> I am in the cloud class.';
     res.writeHead(200, {'content-Type': 'text/html'});
-    res.write(Body);
+    res.write(body);
     res.end();
 }
 
 function hello(res) {
-    let Body = 'This is my first web server.';
+    let body = 'This is my first web server.';
     res.writeHead(200, {'content-Type': 'text/html'});
-    res.write(Body);
+    res.write(body);
     res.end();
 }
 
 exports.start = start;
 exports.hello = hello;
-
-
