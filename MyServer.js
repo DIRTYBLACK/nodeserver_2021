@@ -15,7 +15,7 @@ function start(route, handle) {
     }
 
     server = http.createServer(onRequest);
-    server.listen(port, hostname)
+    server.listen(port, hostname);
     console.log('server is running at' + baseUrl);
 }
 
