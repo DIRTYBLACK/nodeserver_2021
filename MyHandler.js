@@ -8,8 +8,7 @@ function start(res) {
   body += '<div><a href="/wait">5초 대기 페이지</a></div>';
   body += '<div><a href="/randomWait">무작위 대기 페이지</a></div>';
   body += '<div><a href="/firstHtml">HTML 읽는 페이지</a></div>';
-  body +=
-    '<div><a href="/page">Handler 없이 "/page"로 매핑하는 페이지</a></div>';
+  body += '<div><a href="/page">Handler 없이 "/page"로 매핑하는 페이지</a></div>';
   body += '<div><a href="/serverInfo">Server 정보를 표시하는 페이지</a></div>';
   body += '</body>';
   res.writeHead(200, { 'Content-Type': 'text/html' });
